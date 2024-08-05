@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khushan Poptani - Resume</title>
+    <link rel="stylesheet" href="Styles/CSS/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-logo">
+            <img src="Styles/images/Personal.png" alt="Logo">
+            <span>Khushan</span>
+        </div>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="medium-nav">
+        <h1>Khushan</h1>
+        <div class="medium-nav-l">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="small-nav">
+        <button class="open-btn" onclick="toggleSidebar()">☰</button>
+        <h1>Khushan</h1>
+    </div>
+
+    <div class="sidebar" id="mySidebar">
+        <div class="side-logo">
+            <img src="Styles/images/Personal.png" alt="Logo">
+            <span>Khushan</span>
+        </div>
+        <ul>
+            <li><a href="#home" onclick="toggleSidebar()">Home</a></li>
+            <li><a href="#about" onclick="toggleSidebar()">About</a></li>
+            <li><a href="#skills" onclick="toggleSidebar()">Skills</a></li>
+            <li><a href="#portfolio" onclick="toggleSidebar()">Portfolio</a></li>
+            <li><a href="#contact" onclick="toggleSidebar()">Contact</a></li>
+        </ul>
+    </div>
+
+    <header id="home">
+        <div class="profile-image">
+            <img src="Styles/images/Personal.png" alt="Khushan">
+        </div>
+        <div class="intro">
+            <h2>Hello, It's me</h2>
+            <h1>Khushan Poptani</h1>
+            <p id="profession-intro">And I'm a <span class="profession"></span></p>
+            <p>I am a developer who turned early professional experience into expertise, crafting innovative solutions and sparking new possibilities. Driven by a passion for continuous learning, I transform challenges into opportunities and ideas into groundbreaking realities.</p>
+            <div class="social-icons">
+                <a href="https://github.com/khushanpoptani" target="_blank" aria-label="Github"><i class="fa fa-github"></i></a>
+                <a href="https://www.instagram.com/_kp_14/" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="https://api.whatsapp.com/send?phone=919084712373" target="_blank" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                <a href="https://www.linkedin.com/in/khushan-poptani-89a870280/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+            <a href="#about" class="more-button">More About Me</a>
+        </div>
+    </header>
+
+    <section id="about">
+        <div class="about-me">
+            <div class="profile-image-about">
+                <img src="Styles/images/Personal.png" alt="Khushan">
+            </div>
+            <div class="about-content">
+                <h1>About Me</h1>
+                <p>Greetings, I am Khushan Poptani, a 19-year-old scholar of Computer Science at Babu Banarasi Das University, specializing in Cloud Computing and Machine Learning. With a rich background spanning five years, complemented by a year in professional domains, my forte lies in web development, full stack intricacies, data science, and AI/ML development. Cyber security and Linux are my fortresses, where I continually seek mastery. Beyond technology, I find inspiration in exploring new languages and unwinding with music, which fuels both my analytical mind and creative spirit.</p>
+                <br><br><br><br>
+                <p>My journey began with a curiosity that led to securing a coveted internship early on, setting the stage for my passion in tech. Today, I am driven by a relentless pursuit of knowledge and innovation, aiming to contribute meaningfully to the ever-evolving landscape of technology. As I look forward, I am eager to delve deeper into emerging technologies and contribute positively to impactful projects that shape the future.</p>
+                <br>
+                <a href="#skills" class="more-button">My Skills</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h1 class="skill-title">My Skills</h1>
+        <div class="skills-container">
+            <div class="skill-card">
+                <i class="fas fa-code"></i>
+                <h2>Full Stack Developer</h2>
+                <p>Masterfully crafting seamless web applications, adept in both front-end and back-end technologies to ensure comprehensive and efficient solutions</p>
+                <a href="#" class="learn-more-button">Learn More</a>
+            </div>
+            <div class="skill-card">
+                <i class="fab fa-python"></i>
+                <h2>Python</h2>
+                <p>Leveraging the versatility of Python to execute a broad spectrum of programming tasks, from sophisticated web development to intricate data analysis</p>
+                <a href="#" class="learn-more-button">Learn More</a>
+            </div>
+            <div class="skill-card">
+                <img src="Styles/images/Django_logo.jpg" alt="Django">
+                <h2>Django</h2>
+                <p>Utilizing the robust Django framework to architect scalable and elegant web applications, ensuring rapid and reliable development cycles</p>
+                <a href="#" class="learn-more-button">Learn More</a>
+            </div>
+        </div>
+
+        <div class="technical-skills-container">
+            <h2>Technical Skills</h2>
+
+            <br><br>
+            
+            <div class="Technical-skill-title">
+                <img alt="svgImg" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4IiB3aWR0aD0iNDgiIGhlaWdodD0iNDgiIHZpZXdCb3g9IjAgMCA0OCA0OCI+CjxwYXRoIGZpbGw9IiNFNjUxMDAiIGQ9Ik00MSw1SDdsMywzNGwxNCw0bDE0LTRMNDEsNUw0MSw1eiI+PC9wYXRoPjxwYXRoIGZpbGw9IiNGRjZEMDAiIGQ9Ik0yNCA4TDI0IDM5LjkgMzUuMiAzNi43IDM3LjcgOHoiPjwvcGF0aD48cGF0aCBmaWxsPSIjRkZGIiBkPSJNMjQsMjV2LTRoOC42bC0wLjcsMTEuNUwyNCwzNS4xdi00LjJsNC4xLTEuNGwwLjMtNC41SDI0eiBNMzIuOSwxN2wwLjMtNEgyNHY0SDMyLjl6Ij48L3BhdGg+PHBhdGggZmlsbD0iI0VFRSIgZD0iTTI0LDMwLjl2NC4ybC03LjktMi42TDE1LjcsMjdoNGwwLjIsMi41TDI0LDMwLjl6IE0xOS4xLDE3SDI0di00aC05LjFsMC43LDEySDI0di00aC00LjZMMTkuMSwxN3oiPjwvcGF0aD4KPC9zdmc+"/>
+                <span>HTML 5</span>
+                <div class="skill-bar">
+                    <div class="skill-bar-fill" style="width: 100%;" data-width="100%"></div>
+                </div>
+            </div>
+
+            <div class="Technical-skill-title">
+                <img alt="svgImg" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4IiB3aWR0aD0iNDgiIGhlaWdodD0iNDgiIHZpZXdCb3g9IjAgMCA0OCA0OCI+CjxwYXRoIGZpbGw9IiMwMjc3QkQiIGQ9Ik00MSw1SDdsMywzNGwxNCw0bDE0LTRMNDEsNUw0MSw1eiI+PC9wYXRoPjxwYXRoIGZpbGw9IiMwMzlCRTUiIGQ9Ik0yNCA4TDI0IDM5LjkgMzUuMiAzNi43IDM3LjcgOHoiPjwvcGF0aD48cGF0aCBmaWxsPSIjRkZGIiBkPSJNMzMuMSAxM0wyNCAxMyAyNCAxNyAyOC45IDE3IDI4LjYgMjEgMjQgMjEgMjQgMjUgMjguNCAyNSAyOC4xIDI5LjUgMjQgMzAuOSAyNCAzNS4xIDMxLjkgMzIuNSAzMi42IDIxIDMyLjYgMjF6Ij48L3BhdGg+PHBhdGggZmlsbD0iI0VFRSIgZD0iTTI0LDEzdjRoLTguOWwtMC4zLTRIMjR6IE0xOS40LDIxbDAuMiw0SDI0di00SDE5LjR6IE0xOS44LDI3aC00bDAuMyw1LjVsNy45LDIuNnYtNC4ybC00LjEtMS40TDE5LjgsMjd6Ij48L3BhdGg+Cjwvc3ZnPg=="/>
+                <span>CSS</span>
+                <div class="skill-bar">
+                    <div class="skill-bar-fill" style="width: 90%;" data-width="90%"></div>
+                </div>
+            </div>
+
+            <div class="Technical-skill-title">
+                <img alt="svgImg" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4IiB3aWR0aD0iMzAiIGhlaWdodD0iMzAiIHZpZXdCb3g9IjAgMCAzMCAzMCI+CjxwYXRoIGZpbGw9IiNkY2Q1ZjIiIGQ9Ik0xNSwyMi41Yy03Ljk5NSwwLTE0LjUtMy4zNjQtMTQuNS03LjVTNy4wMDUsNy41LDE1LDcuNXMxNC41LDMuMzY0LDE0LjUsNy41UzIyLjk5NSwyMi41LDE1LDIyLjV6Ij48L3BhdGg+PHBhdGggZmlsbD0iIzhiNzVhMSIgZD0iTTE1LDhjNy41ODksMCwxNCwzLjIwNiwxNCw3cy02LjQxMSw3LTE0LDdTMSwxOC43OTQsMSwxNVM3LjQxMSw4LDE1LDggTTE1LDdDNi43MTYsNywwLDEwLjU4MiwwLDE1IHM2LjcxNiw4LDE1LDhzMTUtMy41ODIsMTUtOFMyMy4yODQsNywxNSw3TDE1LDd6Ij48L3BhdGg+PHBhdGggZmlsbD0iIzM2NDA0ZCIgZD0iTTkuNDE3IDEzYy41OTggMCAxLjExNi4yMDMgMS4zODQuNTQzLjE5Mi4yNDQuMjQ1LjU1NS4xNTcuOTI3QzEwLjY5IDE1LjU5OSAxMC4yMTYgMTYgOC4wODkgMTZINi41OGwuNTYzLTNIOS40MTdNOS40MTcgMTJINi4zMTNMNSAxOWgxbC4zOTYtMmgxLjY5M2MyLjE5OSAwIDMuMzk1LS40MTcgMy44NDItMi4yOTlDMTIuMzE2IDEzLjA4NCAxMS4wMzkgMTIgOS40MTcgMTJMOS40MTcgMTJ6TTIyLjQxNyAxM2MuNTk4IDAgMS4xMTYuMjAzIDEuMzg0LjU0My4xOTIuMjQ0LjI0NS41NTUuMTU3LjkyN0MyMy42OSAxNS41OTkgMjMuMjE2IDE2IDIxLjA4OSAxNkgxOS41OGwuNTYzLTNIMjIuNDE3TTIyLjQxNyAxMmgtMy4xMDRMMTggMTloMWwuMzk2LTJoMS42OTNjMi4xOTkgMCAzLjM5NS0uNDE3IDMuODQyLTIuMjk5QzI1LjMxNiAxMy4wODQgMjQuMDM5IDEyIDIyLjQxNyAxMkwyMi40MTcgMTJ6Ij48L3BhdGg+PGc+PHBhdGggZmlsbD0iIzM2NDA0ZCIgZD0iTTE3LjY1MiwxMi40MjRDMTcuMzIzLDEyLjEyMiwxNi43NDIsMTIsMTUuODc1LDEyaC0xLjg0OGwwLjQ1MS0yaC0xLjAxN0wxMiwxN2gxLjAxNmwwLjg0MS00aDAuMTcxIGgxLjg0OGMwLjkxLDAsMS4wOTQsMC4xNTUsMS4wOTYsMC4xNTVjMC4wMTksMC4wMywwLjA1OCwwLjE5NC0wLjAwOCwwLjUzMkwxNi4yODgsMTdoMS4wNDZsMC42MS0zLjEyMSBDMTguMDc1LDEzLjIxMiwxNy45NzYsMTIuNzIyLDE3LjY1MiwxMi40MjR6Ij48L3BhdGg+PC9nPgo8L3N2Zz4="/>
+                <span>PHP</span>
+                <div class="skill-bar">
+                    <div class="skill-bar-fill" style="width: 80%;" data-width="80%"></div>
+                </div>
+            </div>
+
+            <div class="Technical-skill-title">
+                <img alt="svgImg" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4IiB3aWR0aD0iNDgiIGhlaWdodD0iNDgiIHZpZXdCb3g9IjAgMCA0OCA0OCI+CjxwYXRoIGZpbGw9IiNmZmQ2MDAiIGQ9Ik02LDQyVjZoMzZ2MzZINnoiPjwvcGF0aD48cGF0aCBmaWxsPSIjMDAwMDAxIiBkPSJNMjkuNTM4IDMyLjk0N2MuNjkyIDEuMTI0IDEuNDQ0IDIuMjAxIDMuMDM3IDIuMjAxIDEuMzM4IDAgMi4wNC0uNjY1IDIuMDQtMS41ODUgMC0xLjEwMS0uNzI2LTEuNDkyLTIuMTk4LTIuMTMzbC0uODA3LS4zNDRjLTIuMzI5LS45ODgtMy44NzgtMi4yMjYtMy44NzgtNC44NDEgMC0yLjQxIDEuODQ1LTQuMjQ0IDQuNzI4LTQuMjQ0IDIuMDUzIDAgMy41MjguNzExIDQuNTkyIDIuNTczbC0yLjUxNCAxLjYwN2MtLjU1My0uOTg4LTEuMTUxLTEuMzc3LTIuMDc4LTEuMzc3LS45NDYgMC0xLjU0NS41OTctMS41NDUgMS4zNzcgMCAuOTY0LjYgMS4zNTQgMS45ODUgMS45NTFsLjgwNy4zNDRDMzYuNDUyIDI5LjY0NSAzOCAzMC44MzkgMzggMzMuNTIzIDM4IDM2LjQxNSAzNS43MTYgMzggMzIuNjUgMzhjLTIuOTk5IDAtNC43MDItMS41MDUtNS42NS0zLjM2OEwyOS41MzggMzIuOTQ3ek0xNy45NTIgMzMuMDI5Yy41MDYuOTA2IDEuMjc1IDEuNjAzIDIuMzgxIDEuNjAzIDEuMDU4IDAgMS42NjctLjQxOCAxLjY2Ny0yLjA0M1YyMmgzLjMzM3YxMS4xMDFjMCAzLjM2Ny0xLjk1MyA0Ljg5OS00LjgwNSA0Ljg5OS0yLjU3NyAwLTQuNDM3LTEuNzQ2LTUuMTk1LTMuMzY4TDE3Ljk1MiAzMy4wMjl6Ij48L3BhdGg+Cjwvc3ZnPg=="/>
+                <span>JavaScript</span>
+                <div class="skill-bar">
+                    <div class="skill-bar-fill" style="width: 70%;" data-width="70%"></div>
+                </div>
+            </div>
+
+
+            <br><br>
+
+            <div class="Technical-skill-title">
+                <img alt="svgImg" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4IiB3aWR0aD0iNDgiIGhlaWdodD0iNDgiIHZpZXdCb3g9IjAgMCA0OCA0OCI+CjxwYXRoIGZpbGw9IiMwMjc3QkQiIGQ9Ik0yNC4wNDcsNWMtMS41NTUsMC4wMDUtMi42MzMsMC4xNDItMy45MzYsMC4zNjdjLTMuODQ4LDAuNjctNC41NDksMi4wNzctNC41NDksNC42N1YxNGg5djJIMTUuMjJoLTQuMzVjLTIuNjM2LDAtNC45NDMsMS4yNDItNS42NzQsNC4yMTljLTAuODI2LDMuNDE3LTAuODYzLDUuNTU3LDAsOS4xMjVDNS44NTEsMzIuMDA1LDcuMjk0LDM0LDkuOTMxLDM0aDMuNjMydi01LjEwNGMwLTIuOTY2LDIuNjg2LTUuODk2LDUuNzY0LTUuODk2aDcuMjM2YzIuNTIzLDAsNS0xLjg2Miw1LTQuMzc3di04LjU4NmMwLTIuNDM5LTEuNzU5LTQuMjYzLTQuMjE4LTQuNjcyQzI3LjQwNiw1LjM1OSwyNS41ODksNC45OTQsMjQuMDQ3LDV6IE0xOS4wNjMsOWMwLjgyMSwwLDEuNSwwLjY3NywxLjUsMS41MDJjMCwwLjgzMy0wLjY3OSwxLjQ5OC0xLjUsMS40OThjLTAuODM3LDAtMS41LTAuNjY0LTEuNS0xLjQ5OEMxNy41NjMsOS42OCwxOC4yMjYsOSwxOS4wNjMsOXoiPjwvcGF0aD48cGF0aCBmaWxsPSIjRkZDMTA3IiBkPSJNMjMuMDc4LDQzYzEuNTU1LTAuMDA1LDIuNjMzLTAuMTQyLDMuOTM2LTAuMzY3YzMuODQ4LTAuNjcsNC41NDktMi4wNzcsNC41NDktNC42N1YzNGgtOXYtMmg5LjM0M2g0LjM1YzIuNjM2LDAsNC45NDMtMS4yNDIsNS42NzQtNC4yMTljMC44MjYtMy40MTcsMC44NjMtNS41NTcsMC05LjEyNUM0MS4yNzQsMTUuOTk1LDM5LjgzMSwxNCwzNy4xOTQsMTRoLTMuNjMydjUuMTA0YzAsMi45NjYtMi42ODYsNS44OTYtNS43NjQsNS44OTZoLTcuMjM2Yy0yLjUyMywwLTUsMS44NjItNSw0LjM3N3Y4LjU4NmMwLDIuNDM5LDEuNzU5LDQuMjYzLDQuMjE4LDQuNjcyQzE5LjcxOSw0Mi42NDEsMjEuNTM2LDQzLjAwNiwyMy4wNzgsNDN6IE0yOC4wNjMsMzljLTAuODIxLDAtMS41LTAuNjc3LTEuNS0xLjUwMmMwLTAuODMzLDAuNjc5LTEuNDk4LDEuNS0xLjQ5OGMwLjgzNywwLDEuNSwwLjY2NCwxLjUsMS40OThDMjkuNTYzLDM4LjMyLDI4Ljg5OSwzOSwyOC4wNjMsMzl6Ij48L3BhdGg+Cjwvc3ZnPg=="/>
+                <span>Python</span>
+                <div class="skill-bar">
+                    <div class="skill-bar-fill" style="width: 90%;" data-width="90%"></div>
+                </div>
+            </div>
+
+            <div class="Technical-skill-title">
+                <img alt="svgImg" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4IiB3aWR0aD0iNDgiIGhlaWdodD0iNDgiIHZpZXdCb3g9IjAgMCA0OCA0OCI+CjxwYXRoIGZpbGw9IiNGNDQzMzYiIGQ9Ik0yMy42NSwyNC44OThjLTAuOTk4LTEuNjA5LTEuNzIyLTIuOTQzLTIuNzI1LTUuNDU1QzE5LjIyOSwxNS4yLDMxLjI0LDExLjM2NiwyNi4zNywzLjk5OWMyLjExMSw1LjA4OS03LjU3Nyw4LjIzNS04LjQ3NywxMi40NzNDMTcuMDcsMjAuMzcsMjMuNjQ1LDI0Ljg5OCwyMy42NSwyNC44OTh6Ij48L3BhdGg+PHBhdGggZmlsbD0iI0Y0NDMzNiIgZD0iTTIzLjg3OCwxNy4yN2MtMC4xOTIsMi41MTYsMi4yMjksMy44NTcsMi4yOTksNS42OTVjMC4wNTYsMS40OTYtMS40NDcsMi43NDMtMS40NDcsMi43NDNzMi43MjgtMC41MzYsMy41NzktMi44MThjMC45NDUtMi41MzQtMS44MzQtNC4yNjktMS41NDgtNi4yOThjMC4yNjctMS45MzgsNi4wMzEtNS41NDMsNi4wMzEtNS41NDNTMjQuMzExLDExLjYxMSwyMy44NzgsMTcuMjd6Ij48L3BhdGg+PGc+PHBhdGggZmlsbD0iIzE1NjVDMCIgZD0iTTMyLjA4NCAyNS4wNTVjMS43NTQtLjM5NCAzLjIzMy43MjMgMy4yMzMgMi4wMSAwIDIuOTAxLTQuMDIxIDUuNjQzLTQuMDIxIDUuNjQzczYuMjI1LS43NDIgNi4yMjUtNS41MDVDMzcuNTIxIDI0LjA1MyAzNC40NjQgMjMuMjY2IDMyLjA4NCAyNS4wNTV6TTI5LjEyOSAyNy4zOTVjMCAwIDEuOTQxLTEuMzgzIDIuNDU4LTEuOTAyLTQuNzYzIDEuMDExLTE1LjYzOCAxLjE0Ny0xNS42MzguMjY5IDAtLjgwOSAzLjUwNy0xLjYzOCAzLjUwNy0xLjYzOHMtNy43NzMtLjExMi03Ljc3MyAyLjE4MUMxMS42ODMgMjguNjk1IDIxLjg1OCAyOC44NjYgMjkuMTI5IDI3LjM5NXoiPjwvcGF0aD48cGF0aCBmaWxsPSIjMTU2NUMwIiBkPSJNMjcuOTM1LDI5LjU3MWMtNC41MDksMS40OTktMTIuODE0LDEuMDItMTAuMzU0LTAuOTkzYy0xLjE5OCwwLTIuOTc0LDAuOTYzLTIuOTc0LDEuODg5YzAsMS44NTcsOC45ODIsMy4yOTEsMTUuNjMsMC41NzJMMjcuOTM1LDI5LjU3MXoiPjwvcGF0aD48cGF0aCBmaWxsPSIjMTU2NUMwIiBkPSJNMTguNjg2LDMyLjczOWMtMS42MzYsMC0yLjY5NSwxLjA1NC0yLjY5NSwxLjgyMmMwLDIuMzkxLDkuNzYsMi42MzIsMTMuNjI3LDAuMjA1bC0yLjQ1OC0xLjYzMkMyNC4yNzEsMzQuNDA0LDE3LjAxNCwzNC41NzksMTguNjg2LDMyLjczOXoiPjwvcGF0aD48cGF0aCBmaWxsPSIjMTU2NUMwIiBkPSJNMzYuMjgxLDM2LjYzMmMwLTAuOTM2LTEuMDU1LTEuMzc3LTEuNDMzLTEuNTg4YzIuMjI4LDUuMzczLTIyLjMxNyw0Ljk1Ni0yMi4zMTcsMS43ODRjMC0wLjcyMSwxLjgwNy0xLjQyNywzLjQ3Ny0xLjA5M2wtMS40Mi0wLjgzOUMxMS4yNiwzNC4zNzQsOSwzNS44MzcsOSwzNy4wMTdDOSw0Mi41MiwzNi4yODEsNDIuMjU1LDM2LjI4MSwzNi42MzJ6Ij48L3BhdGg+PHBhdGggZmlsbD0iIzE1NjVDMCIgZD0iTTM5LDM4LjYwNGMtNC4xNDYsNC4wOTUtMTQuNjU5LDUuNTg3LTI1LjIzMSwzLjA1N0MyNC4zNDEsNDYuMTY0LDM4Ljk1LDQzLjYyOCwzOSwzOC42MDR6Ij48L3BhdGg+PC9nPgo8L3N2Zz4="/>
+                <span>Java</span>
+                <div class="skill-bar">
+                    <div class="skill-bar-fill" style="width: 60%;" data-width="60%"></div>
+                </div>
+            </div>
+
+            <br><br>
+
+            <div class="Technical-skill-title">
+                <img alt="svgImg" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4IiB3aWR0aD0iNTAiIGhlaWdodD0iNTAiIHZpZXdCb3g9IjAsMCwyNTYsMjU2IgpzdHlsZT0iZmlsbDojMDAwMDAwOyI+CjxnIGZpbGw9IiMxNzczNTAiIGZpbGwtcnVsZT0ibm9uemVybyIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIHN0cm9rZS1saW5lY2FwPSJidXR0IiBzdHJva2UtbGluZWpvaW49Im1pdGVyIiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIHN0cm9rZS1kYXNoYXJyYXk9IiIgc3Ryb2tlLWRhc2hvZmZzZXQ9IjAiIGZvbnQtZmFtaWx5PSJub25lIiBmb250LXdlaWdodD0ibm9uZSIgZm9udC1zaXplPSJub25lIiB0ZXh0LWFuY2hvcj0ibm9uZSIgc3R5bGU9Im1peC1ibGVuZC1tb2RlOiBub3JtYWwiPjxnIHRyYW5zZm9ybT0ic2NhbGUoNS4xMiw1LjEyKSI+PHBhdGggZD0iTTYuMDQ0OTIsMTUuOTkwMjN2NC4yMzA0N2MtMC40MDgsLTAuMTA1IC0wLjg5NzgsLTAuMTQwNjIgLTEuMzQxOCwtMC4xNDA2MmMtMi44NTksMCAtNC43MDMxMiwxLjc5MjY5IC00LjcwMzEyLDQuNTU0NjljMCwyLjg2OCAxLjczODA4LDQuMzU5MjggNS4wODAwOCw0LjM2MzI4YzEuMTE2LDAgMi4xNDk3OCwtMC4xMDIxOSAzLjU1MDc4LC0wLjM2NzE5di0xMi42NDA2M3pNMTAuMjQ2MDksMTYuMDAzOTF2Mi43NzkzaDIuNzM2MzN2LTIuNzc5M3pNMTAuMjQ2MDksMjB2NS42MTUyM2MwLDIuMzU4IC0wLjEyMjY3LDMuMjU1MyAtMC41MTM2Nyw0LjAyOTNjLTAuMzczLDAuNzU3IC0wLjk1ODAyLDEuMjUxNSAtMi4xNjYwMiwxLjgxMjVsMi41MzkwNiwxLjE5NzI3YzEuMjA4LC0wLjYwMSAxLjc5MjMzLC0xLjE0Mzg2IDIuMjM2MzMsLTIuMDA1ODZjMC40NzUsLTAuODk2IDAuNjM2NzIsLTEuOTM1NjYgMC42MzY3MiwtNC4wOTc2NnYtNi41NTA3OHpNNDUuNTY2NDEsMjBjLTIuODA5LDAgLTQuNTYxNDEsMS43NjE4OSAtNC41NjY0MSw0LjU4Nzg5YzAsMi43MjIgMS42OTgwOCw0LjQxMjExIDQuNDU1MDgsNC40MTIxMWMyLjc5MiwwIDQuNTQ0OTIsLTEuNzU5MzYgNC41NDQ5MiwtNC41NjgzNmMwLC0yLjc0IC0xLjY4MDU5LC00LjQzMTY0IC00LjQzMzU5LC00LjQzMTY0ek0xOC4wODM5OCwyMC4wODAwOGMtMS4yMSwwIC0yLjMxNzU2LDAuMjQ3NjQgLTMuNDc2NTYsMC44MDY2NGwwLjAwMzkxLDIuMDg3ODljMS4wMjQsLTAuNTQzIDIuMTEzOTgsLTAuODI0MjIgMy4wODM5OCwtMC44MjQyMmMwLjY2MiwwIDAuOTAyMzQsMC4xNzc5NyAwLjkwMjM0LDAuNjY3OTd2MC41OTM3NWMtMy4yMiwwLjI3OCAtNC41MzEyNSwxLjE1NDgzIC00LjUzMTI1LDMuMDQ4ODNjMCwxLjc1MSAwLjk4NzUsMi41MzkwNiAzLjE4NzUsMi41MzkwNmMxLjA4OCwwIDIuNTcxMDksLTAuMTI0ODMgMy43NDYwOSwtMC4yOTg4M3YtNS40ODI0MmMwLC0xLjEyMiAtMC4wNzEwMiwtMS42NDc3OCAtMC4yOTEwMiwtMi4wNTA3OGMtMC4zOTIsLTAuNzIgLTEuMjc3LC0xLjA4Nzg5IC0yLjYyNSwtMS4wODc4OXpNMjYuOTE3OTcsMjAuMDgwMDhjLTEuMzQ4LDAgLTIuNjc4OTIsMC4xOTEyOCAtNC4yOTQ5MiwwLjYxMzI4djguMTk3MjdoMi43MzI0MnYtNi40Mzc1YzAuNTUsLTAuMTYgMC44ODU3NiwtMC4xOTMzNiAxLjI1OTc3LC0wLjE5MzM2YzAuOTc1LDAgMS40MzE2NCwwLjM4Njc4IDEuNDMxNjQsMS40MjU3OHY1LjIwNTA4aDIuNjM2NzJ2LTUuMzEyNWMwLC0xLjM1MyAtMC4xODEwNSwtMS45ODc0MSAtMC43NDgwNSwtMi41NjY0MWMtMC42MDIsLTAuNjE0IC0xLjYxNjU4LC0wLjkzMTY0IC0zLjAxNzU4LC0wLjkzMTY0ek0zNy43ODUxNiwyMC4wOTU3Yy0zLjk5MywwIC02LjI1LDEuNzM4MzYgLTYuMjUsNC44MTgzNmMwLDIuNDggMS41MjM4Nyw0LjA0Njg4IDMuOTIxODgsNC4wNDY4OGMwLjcwOCwwIDEuMjQzMzksLTAuMTA3MTQgMS43NzUzOSwtMC4zNjkxNHYwLjA1MDc4YzAsMS43MjMgLTAuNzY0NjQsMi40NDUzMSAtMi41NTY2NCwyLjQ0NTMxYy0xLjAxNSwwIC0xLjk3MjY5LC0wLjIyNjc1IC0yLjkyOTY5LC0wLjcxODc1aC0wLjAwMTk1djIuNTAxOTVjMC45NTgsMC4zNyAxLjg4MDI3LDAuNTI3MzQgMi45NDcyNywwLjUyNzM0YzIuMDk2LDAgMy41NzE4MywtMC42NTI3IDQuNDIzODMsLTEuOTcwN2MwLjU4NCwtMC44OTkgMC43ODEyNSwtMS45ODk1IDAuNzgxMjUsLTQuMzEyNXYtMC43MzgyOGMtMC4wMTgsLTAuMzcgLTAuMDE3MTYsLTAuNzM5MzcgLTAuMDM1MTYsLTEuMTA5MzdsLTAuMDE3NTgsLTEuNDc4NTJsLTAuMDM1MTYsLTEuMTQ0NTN2LTAuMjgzMmMwLjU0OSwwLjA1MiAtMC4xMTg2MywtMC4wNjU3OCAwLjYwOTM4LDAuMDc0MjJsMC45Mzc1LC0xLjk1MzEyYy0xLjMxMywtMC4yNjUgLTIuMzk3MzEsLTAuMzg2NzIgLTMuNTcwMzEsLTAuMzg2NzJ6TTQ1LjUyNzM0LDIyLjE1ODJjMS4wNTYsMCAxLjY2MjExLDAuODcwODkgMS42NjIxMSwyLjMzNzg5YzAsMS40ODQgLTAuNjIyNjksMi4zMzk4NCAtMS42Nzk2OSwyLjMzOTg0Yy0xLjA3MSwwIC0xLjcwMTE3LC0wLjg1NTg0IC0xLjcwMTE3LC0yLjMzOTg0YzAsLTEuNDg0IDAuNjI1NzUsLTIuMzM3ODkgMS43MTg3NSwtMi4zMzc4OXpNNC45NzA3LDIyLjI1OTc3YzAuMzM3NCwwIDAuNzUyNSwwLjAzNjA2IDEuMDcyMjcsMC4xNDA2M3Y0LjM0NzY2Yy0wLjM5MSwwLjA1MiAtMC43ODY4NCwwLjA3MDMxIC0xLjA4OTg0LDAuMDcwMzFjLTEuNDAxLDAgLTIuMTY2MDIsLTAuNzk2MzMgLTIuMTY2MDIsLTIuMjM2MzNjMCwtMS40NzkgMC43OTk1OSwtMi4zMjIyNyAyLjE4MzU5LC0yLjMyMjI3ek0zNi44OTQ1MywyMi4yNzczNGgwLjE5NzI3aDAuMDg3ODl2MC4yMDg5OGwwLjAxNzU4LDAuODk2NDhsMC4wMTc1OCwxLjI1YzAsMC4zNjkgMC4wMTc1OCwwLjcyMjA2IDAuMDE3NTgsMS4wMzkwNnYwLjczODI4djAuMTk3MjdjLTAuMzUyLDAuMTA1IC0wLjY1NDM0LDAuMTczODMgLTEuMDI3MzQsMC4xNzM4M2MtMS4yMDgsMCAtMS44ODQ3NywtMC43NzU5MSAtMS44ODQ3NywtMi4xMjg5MWMwLC0wLjk0OSAwLjMzNzE5LC0xLjYxODI4IDAuOTkyMTksLTEuOTg4MjhjMC40MjYsLTAuMjY1IDEuMDUwMDMsLTAuNDAzNzIgMS41ODIwMywtMC4zODY3MnpNMTguNzE2OCwyNS4xNzc3M3YxLjgwNjY0Yy0wLjUxLDAuMDg3IC0wLjg2OTcyLDAuMTIzMDUgLTEuMjYxNzIsMC4xMjMwNWMtMC43MTcsMCAtMS4wNDEwMiwtMC4yNDY0OCAtMS4wNDEwMiwtMC43NzE0OGMwLC0wLjcwMSAwLjU2NTc0LC0wLjk4NDIgMi4zMDI3MywtMS4xNTgyeiI+PC9wYXRoPjwvZz48L2c+Cjwvc3ZnPg=="/>
+                <span>Django</span>
+                <div class="skill-bar">
+                    <div class="skill-bar-fill" style="width: 80%;" data-width="80%"></div>
+                </div>
+            </div>
+
+            <div class="Technical-skill-title">
+                <img alt="svgImg" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4IiB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCA0MCA0MCI+CjxwYXRoIGZpbGw9IiM0ZTdhYjUiIGQ9Ik0yMCwyOC45QzguNTk4LDI4LjksMCwyNS4xNywwLDIwczguNTk4LTksMjAtOXMyMCwzLjgzLDIwLDlTMzEuNDAyLDI4LjksMjAsMjguOXogTTIwLDEzLjkzMiBjLTkuNzI5LDAtMTcuMTI1LDMuMjY2LTE3LjEyNSw2LjEzMVMxMC4yNzEsMjYuMDY4LDIwLDI2LjA2OHMxNy4xMjUtMy4yNjYsMTcuMTI1LTYuMTMxUzI5LjcyOSwxMy45MzIsMjAsMTMuOTMyeiI+PC9wYXRoPjxwYXRoIGZpbGw9IiM0ZTdhYjUiIGQ9Ik0xMi40MDIsMzhDMTIuNDAxLDM4LDEyLjQwMiwzOCwxMi40MDIsMzhjLTAuOTMxLDAtMS43ODEtMC4yMTYtMi41MjgtMC42NDIgYy0xLjIyLTAuNjk3LTIuMDk1LTEuOTI4LTIuNTMyLTMuNTYyYy0xLjE0Ni00LjI4MiwwLjcwMy0xMS40ODIsNC43MTMtMTguMzQ0QzE2Ljc2LDcuNDA3LDIzLjAwNywyLjAwMywyNy41OTksMi4wMDMgYzAuOTMsMCwxLjc4LDAuMjE2LDIuNTI3LDAuNjQyYzEuMjE4LDAuNjk1LDIuMDk0LDEuOTI1LDIuNTMxLDMuNTU4YzEuMTQ3LDQuMjgyLTAuNzAzLDExLjQ4My00LjcxNSwxOC4zNDUgQzIzLjI0MSwzMi41OTQsMTYuOTk1LDM4LDEyLjQwMiwzOHogTTI3LjU5OSw1LjAwM2MtMi44ODgsMC04LjQwOSw0LjE5My0xMi45NTQsMTEuOTYzYy00LjEyMyw3LjA1Ni01LjMzMiwxMi45MDktNC40MDQsMTYuMDU0IGMwLjI1MSwwLjg0OSwwLjYwNSwxLjQzOCwxLjEyMSwxLjczMmMyLjM2MSwxLjM0OCw4LjgwOS0yLjg1LDEzLjk5MS0xMS43MTdjNC4xMjUtNy4wNTcsNS40Ni0xMi43ODUsNC40MDYtMTYuMDU1IGMtMC4yNzEtMC44NDEtMC42MDQtMS40MzUtMS4xMTktMS43MjhDMjguMzQ3LDUuMDg0LDI4LjAwNiw1LjAwMywyNy41OTksNS4wMDN6Ij48L3BhdGg+PHBhdGggZmlsbD0iIzRlN2FiNSIgZD0iTTI3LjU5OSwzNy45OTdDMjcuNTk5LDM3Ljk5NywyNy41OTksMzcuOTk3LDI3LjU5OSwzNy45OTdjLTQuNTk3LTAuMDAxLTEwLjg0My01LjQwNS0xNS41NDQtMTMuNDQ5IGMtNC4wMS02Ljg2Mi01Ljg1OS0xNC4wNjMtNC43MTMtMTguMzQ0QzcuNzc5LDQuNTcsOC42NTQsMy4zMzksOS44NzMsMi42NDNDMTAuNjIxLDIuMjE2LDExLjQ3MSwyLDEyLjQsMiBjNC41OTUsMCwxMC44NCw1LjQwNiwxNS41NDIsMTMuNDUyYzQuMDExLDYuODYxLDUuODYsMTQuMDYyLDQuNzE0LDE4LjM0NWMtMC40MzgsMS42MzMtMS4zMTMsMi44NjMtMi41MywzLjU1OCBDMjkuMzc5LDM3Ljc4MSwyOC41MjgsMzcuOTk3LDI3LjU5OSwzNy45OTd6IE0xMi40LDVjLTAuNDA3LDAtMC43NDcsMC4wODItMS4wNCwwLjI0OGMtMC41MTUsMC4yOTQtMC44NzQsMC44ODEtMS4xMiwxLjczMiBjLTAuOTI4LDMuMjA4LDAuMjgxLDguOTk5LDQuNDA0LDE2LjA1NWM0LjU0MSw3Ljc2OSwxMC4wNjMsMTEuOTYyLDEyLjk1NCwxMS45NjJsMCwwYzAuNDA4LDAsMC43NDgtMC4wODIsMS4wNDEtMC4yNDkgYzAuNTE0LTAuMjkyLDAuODgzLTAuODc2LDEuMTE4LTEuNzI4YzAuODY3LTMuMTQ2LTAuMjgxLTktNC40MDUtMTYuMDU1QzIwLjgxMSw5LjE5NCwxNS4yOSw1LDEyLjQsNXoiPjwvcGF0aD48cGF0aCBmaWxsPSIjOGJiN2YwIiBkPSJNMjMuNSwyMGMwLDEuOTM1LTEuNTY1LDMuNS0zLjUsMy41cy0zLjUtMS41NjUtMy41LTMuNXMxLjU2NS0zLjUsMy41LTMuNVMyMy41LDE4LjA2NSwyMy41LDIweiI+PC9wYXRoPjxwYXRoIGZpbGw9IiM0ZTdhYjUiIGQ9Ik0yMCwyNGMtMi4yMDYsMC00LTEuNzk0LTQtNHMxLjc5NC00LDQtNHM0LDEuNzk0LDQsNFMyMi4yMDYsMjQsMjAsMjR6IE0yMCwxN2MtMS42NTQsMC0zLDEuMzQ2LTMsMyBzMS4zNDYsMywzLDNzMy0xLjM0NiwzLTNTMjEuNjU0LDE3LDIwLDE3eiI+PC9wYXRoPjxwYXRoIGZpbGw9IiM4YmI3ZjAiIGQ9Ik0yMCwyOC4wNjhDOS4zNDYsMjguMDY4LDEsMjQuNTI0LDEsMjBzOC4zNDYtOC4wNjgsMTktOC4wNjhTMzksMTUuNDc2LDM5LDIwIFMzMC42NTQsMjguMDY4LDIwLDI4LjA2OHogTTIwLDEyLjkzMmMtOS43NTcsMC0xOCwzLjIzNy0xOCw3LjA2OHM4LjI0Myw3LjA2OCwxOCw3LjA2OFMzOCwyMy44MzIsMzgsMjBTMjkuNzU3LDEyLjkzMiwyMCwxMi45MzJ6Ij48L3BhdGg+PHBhdGggZmlsbD0iIzhiYjdmMCIgZD0iTTEyLjQwMiwzN0MxMi40MDEsMzcsMTIuNDAyLDM3LDEyLjQwMiwzN2MtMC43NTUsMC0xLjQzOC0wLjE3Mi0yLjAzMy0wLjUxMSBjLTAuOTk2LTAuNTY5LTEuNjg5LTEuNTYyLTIuMDYyLTIuOTUyYy0xLjA4MS00LjAzNywwLjcyOS0xMC45MzgsNC42MS0xNy41ODFDMTcuMzc5LDguMzMsMjMuNDE2LDMuMDAzLDI3LjU5OSwzLjAwMyBjMC43NTQsMCwxLjQzOCwwLjE3MiwyLjAzMiwwLjUxMWMwLjk5NSwwLjU2OCwxLjY4OCwxLjU2LDIuMDYxLDIuOTQ4YzEuMDgxLDQuMDM3LTAuNzI5LDEwLjkzOC00LjYxMiwxNy41ODIgQzIyLjYyMSwzMS42NzIsMTYuNTg2LDM3LDEyLjQwMiwzN3ogTTI3LjU5OSw0LjAwM2MtMy43ODQsMC05LjU5NSw1LjIzOS0xMy44MTcsMTIuNDU4Yy0zLjY5NSw2LjMyNS01LjUwNywxMy4wODMtNC41MDgsMTYuODE4IGMwLjMwMSwxLjEyMywwLjgzNiwxLjkxLDEuNTkyLDIuMzQyQzExLjMwNywzNS44NzIsMTEuODIzLDM2LDEyLjQwMSwzNmMzLjc4NSwwLDkuNTk1LTUuMjQsMTMuODE0LTEyLjQ2MSBjMy42OTctNi4zMjYsNS41MS0xMy4wODUsNC41MDktMTYuODE4Yy0wLjMtMS4xMjEtMC44MzUtMS45MDgtMS41OS0yLjMzOEMyOC42OTMsNC4xMzEsMjguMTc3LDQuMDAzLDI3LjU5OSw0LjAwM3oiPjwvcGF0aD48Zz48cGF0aCBmaWxsPSIjOGJiN2YwIiBkPSJNMjcuNTk5LDM2Ljk5N0MyNy41OTksMzYuOTk3LDI3LjU5OSwzNi45OTcsMjcuNTk5LDM2Ljk5N2MtNC4xODctMC4wMDEtMTAuMjI0LTUuMzI3LTE0LjY4MS0xMi45NTMgQzkuMDM2LDE3LjQwMSw3LjIyNywxMC41LDguMzA4LDYuNDYzYzAuMzcyLTEuMzksMS4wNjUtMi4zODMsMi4wNjItMi45NTJDMTAuOTY0LDMuMTcyLDExLjY0NywzLDEyLjQsMyBjNC4xODUsMCwxMC4yMjEsNS4zMjgsMTQuNjc5LDEyLjk1NmMzLjg4Myw2LjY0Miw1LjY5MiwxMy41NDMsNC42MSwxNy41ODJjLTAuMzcxLDEuMzg5LTEuMDY0LDIuMzgxLTIuMDU5LDIuOTQ4IEMyOS4wMzYsMzYuODI1LDI4LjM1MywzNi45OTcsMjcuNTk5LDM2Ljk5N3ogTTEyLjQsNGMtMC41NzcsMC0xLjA5NCwwLjEyOC0xLjUzNSwwLjM3OWMtMC43NTYsMC40MzItMS4yOTEsMS4yMTktMS41OTIsMi4zNDIgYy0wLjk5OSwzLjczNCwwLjgxMywxMC40OTMsNC41MDgsMTYuODE4QzE4LDMwLjc1NywyMy44MTIsMzUuOTk2LDI3LjU5OSwzNS45OTdsMCwwYzAuNTc4LDAsMS4wOTUtMC4xMjgsMS41MzYtMC4zOCBjMC43NTQtMC40MywxLjI4OS0xLjIxNywxLjU4OS0yLjMzOGMxLTMuNzM1LTAuODEyLTEwLjQ5NC00LjUwOC0xNi44MThDMjEuOTk2LDkuMjQxLDE2LjE4Nyw0LDEyLjQsNHoiPjwvcGF0aD48L2c+Cjwvc3ZnPg=="/>
+                <span>React</span>
+                <div class="skill-bar">
+                    <div class="skill-bar-fill" style="width: 50%;" data-width="50%"></div>
+                </div>
+            </div>
+
+            <br><br>
+
+            <div class="Technical-skill-title">
+                <img alt="svgImg" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4IiB3aWR0aD0iNDgiIGhlaWdodD0iNDgiIHZpZXdCb3g9IjAgMCA0OCA0OCI+CjxsaW5lYXJHcmFkaWVudCBpZD0iZURNZ01peGVENk02RVlTWUJ1Sjh5YV85bkxhUjVLRkdqTjBfZ3IxIiB4MT0iOS44IiB4Mj0iMTEuMDgxIiB5MT0iMjUuMjM2IiB5Mj0iMzYuODk5IiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PHN0b3Agb2Zmc2V0PSIwIiBzdG9wLWNvbG9yPSIjMDU4ZjkyIj48L3N0b3A+PHN0b3Agb2Zmc2V0PSIuNSIgc3RvcC1jb2xvcj0iIzAzODQ4OSI+PC9zdG9wPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzAyNmQ3MSI+PC9zdG9wPjwvbGluZWFyR3JhZGllbnQ+PHBhdGggZmlsbD0idXJsKCNlRE1nTWl4ZUQ2TTZFWVNZQnVKOHlhXzluTGFSNUtGR2pOMF9ncjEpIiBkPSJNMC4wMDIsMzUuMDQxaDEuOTJ2LTcuMDg1bDIuNjY3LDYuMDU3YzAuMzI5LDAuNzU1LDAuNzc5LDEuMDIyLDEuNjYyLDEuMDIyIHMxLjMxNS0wLjI2NywxLjY0NC0xLjAyMmwyLjY2Ny01LjkwMnY2LjkzaDEuOTJ2LTcuMjU4YzAtMC42OTctMC4yNzctMS4wMzUtMC44NDktMS4yMDljLTEuMzY3LTAuNDMtMi4yODUtMC4wNTktMi43LDAuODcyIGwtMi43MzUsNi4xNmwtMi42NDktNi4xNmMtMC4zOTgtMC45My0xLjMzMi0xLjMwMi0yLjctMC44NzJDMC4yNzcsMjYuNzQ4LDAsMjcuMDg1LDAsMjcuNzgydjcuMjU4SDAuMDAyeiBNMTMuNDQxLDI5LjI4MWgxLjkyIHY0LjA1NWMtMC4wMTUsMC4yLDAuMDY0LDAuNzMxLDAuOTksMC43NDVjMC40NzIsMC4wMDgsMi44MjEsMCwyLjg1LDB2LTQuOGgxLjkyYzAuMDA4LDAsMCw1Ljk2OCwwLDUuOTkzIGMwLjAxLDEuNDcyLTEuODI4LDEuNjYyLTIuNjczLDEuNjg3aC01LjAwNnYtMC45NmMwLjAxLDAsNC43ODcsMC4wMDEsNC44MDEsMGMxLjA4OC0wLjExNSwwLjk1OS0wLjcxNCwwLjk1OS0wLjg5NnYtMC4wNjRIMTYuMTkgYy0xLjY3LTAuMDE1LTIuNzM1LTAuNzUxLTIuNzQ3LTEuNTlDMTMuNDQxLDMzLjM3MywxMy40NzksMjkuMzE3LDEzLjQ0MSwyOS4yODF6Ij48L3BhdGg+PGxpbmVhckdyYWRpZW50IGlkPSJlRE1nTWl4ZUQ2TTZFWVNZQnVKOHliXzluTGFSNUtGR2pOMF9ncjIiIHgxPSIzNC4yMjQiIHgyPSIzNS4xMDEiIHkxPSIyNS42NDQiIHkyPSIzNS4yMTciIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj48c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiNmZjljMGYiPjwvc3RvcD48c3RvcCBvZmZzZXQ9Ii44MTMiIHN0b3AtY29sb3I9IiNkNjdlMDAiPjwvc3RvcD48L2xpbmVhckdyYWRpZW50PjxwYXRoIGZpbGw9InVybCgjZURNZ01peGVENk02RVlTWUJ1Sjh5Yl85bkxhUjVLRkdqTjBfZ3IyKSIgZD0iTTIyLjA4MSwzNS4wNDFoNC44MDdjMC42MywwLDEuMjQyLTAuMTMyLDEuNzI4LTAuMzZjMC44MS0wLjM3MiwxLjE0NC0wLjg3NSwxLjE0NC0xLjUzNiB2LTEuMzY4YzAtMS40NzYtMS44My0xLjUzNi0yLjg4LTEuNTM2aC0xLjkyYy0wLjc1NSwwLTAuODctMC40NTYtMC45Ni0wLjk2di0wLjk2YzAuMDktMC4zODQsMC4yNTgtMC45LDAuOTIzLTAuOTYgYzAuNzczLDAsNC44MzYsMCw0LjgzNiwwdi0wLjk2aC00LjU2NmMtMC43NTUsMC0zLjExNCwwLjA5LTMuMTE0LDEuOTJ2MS4xODdjMCwwLjg0LDAuNzM4LDEuNTI0LDIuMzQsMS42OTIgYzAuMTgsMC4wMTIsMC4zNiwwLjAyNCwwLjUzOSwwLjAyNGMwLDAsMS44NjYtMC4wMzYsMS45Mi0wLjAyNGMxLjA4LDAsMC45NiwwLjg0LDAuOTYsMC45NnYwLjk2YzAsMC4xMzItMC4wMywwLjk2LTAuOTcxLDAuOTYgYy0wLjA3MiwwLTQuNzg5LDAtNC43ODksMFYzNS4wNDF6IE00MC4zMiwzMy4wOGMwLDEuMTU5LDAuNjU1LDEuODA5LDIuMzkyLDEuOTM5YzAuMTYyLDAuMDExLDAuMzI1LDAuMDIxLDAuNDg4LDAuMDIxSDQ4di0wLjk2IGgtNC40MzVjLTAuOTkxLDAtMS4zMjUtMC40MTYtMS4zMjUtMS4wMTF2LTYuNjY5aC0xLjkyVjMzLjA4eiBNMzAuNzA0LDMzLjEyMXYtNC44YzAtMS4wMiwwLjUtMS43MjQsMS45MTYtMS45MmgwLjY3MmgzLjQ0N2gwLjUyNSBjMS40MTYsMC4xOTYsMi4wOCwwLjg5OSwyLjA4LDEuOTJ2NC43ODJjMCwwLjgyNy0wLjIxNSwxLjI3MS0wLjkxNiwxLjU1OUwzOS45MTYsMzZoLTIuMTZsLTEuMDctMC45NmgtMS4yNTdsLTIuMTM2LDAuMDEyIGMtMC4zMDksMC0wLjYzNS0wLjA0My0wLjk5My0wLjE0MUMzMS4yMjYsMzQuNjE4LDMwLjcwNCwzNC4wNTQsMzAuNzA0LDMzLjEyMXogTTMyLjYyNCwzMy4xMjFjMC4wOTgsMC40NjcsMC40NzMsMC45NiwxLjE0LDAuOTYgaDEuODY0bC0xLjA2OC0wLjk2aDIuMTc1bDAuNTE5LDAuNDgyYzAsMCwwLjE4Ni0wLjE1MiwwLjE4Ni0wLjQ4MmMwLTAuMzMtMC4wMTYtNC44LTAuMDE2LTQuOGMtMC4wOTgtMC40MzQtMC41MzgtMC45Ni0xLjE4OC0wLjk2IGgtMi40NzFjLTAuNzQ5LDAtMS4xNCwwLjU0OC0xLjE0LDEuMDU4TDMyLjYyNCwzMy4xMjFMMzIuNjI0LDMzLjEyMXoiPjwvcGF0aD48bGluZWFyR3JhZGllbnQgaWQ9ImVETWdNaXhlRDZNNkVZU1lCdUo4eWNfOW5MYVI1S0ZHak4wX2dyMyIgeDE9IjM1LjAyOSIgeDI9IjQwLjM1NSIgeTE9IjExLjcxNiIgeTI9IjI2Ljc1IiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PHN0b3Agb2Zmc2V0PSIwIiBzdG9wLWNvbG9yPSIjMDU4ZjkyIj48L3N0b3A+PHN0b3Agb2Zmc2V0PSIuNSIgc3RvcC1jb2xvcj0iIzAzODQ4OSI+PC9zdG9wPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzAyNmQ3MSI+PC9zdG9wPjwvbGluZWFyR3JhZGllbnQ+PHBhdGggZmlsbD0idXJsKCNlRE1nTWl4ZUQ2TTZFWVNZQnVKOHljXzluTGFSNUtGR2pOMF9ncjMpIiBkPSJNNDYuMTk5LDI1LjM4OWMtMS4wMzEtMC4wMjgtMS44MTgsMC4wNjgtMi40OTEsMC4zNTFjLTAuMTkxLDAuMDgxLTAuNDk2LDAuMDgzLTAuNTI4LDAuMzIzIGMwLjEwNSwwLjExLDAuMTIxLDAuMjc1LDAuMjA1LDAuNDFjMC4xNiwwLjI2LDAuNDMyLDAuNjA5LDAuNjc0LDAuNzkxYzAuMjY1LDAuMiwwLjUzOCwwLjQxNCwwLjgyMSwwLjU4NyBjMC41MDQsMC4zMDcsMS4wNjcsMC40ODMsMS41NTMsMC43OTFjMC4yODYsMC4xODEsMC41NywwLjQxMSwwLjg1LDAuNjE1YzAuMTM4LDAuMTAyLDAuMjMsMC4yNTksMC40MSwwLjMyMyBjMC0wLjAxLDAtMC4wMTksMC0wLjAyOWMtMC4wOTQtMC4xMi0wLjExOS0wLjI4NS0wLjIwNS0wLjQxMWMtMC4xMjctMC4xMjctMC4yNTQtMC4yNTQtMC4zODEtMC4zODEgYy0wLjM3Mi0wLjQ5NC0wLjg0Ni0wLjkyOS0xLjM0OC0xLjI4OWMtMC40MDEtMC4yODgtMS4yOTgtMC42NzctMS40NjYtMS4xNDNjLTAuMDEtMC4wMS0wLjAxOS0wLjAxOS0wLjAzLTAuMDMgYzAuMjg0LTAuMDMyLDAuNjE3LTAuMTM1LDAuODc5LTAuMjA1YzAuNDQxLTAuMTE4LDAuODM0LTAuMDg3LDEuMjg5LTAuMjA1YzAuMjA1LTAuMDU5LDAuNDEtMC4xMTcsMC42MTUtMC4xNzYgYzAtMC4wMzksMC0wLjA3OCwwLTAuMTE3Yy0wLjIzLTAuMjM2LTAuMzk1LTAuNTQ4LTAuNjQ1LTAuNzYyYy0wLjY1Ny0wLjU1OS0xLjM3My0xLjExNy0yLjExLTEuNTgzIGMtMC40MDktMC4yNTgtMC45MTUtMC40MjYtMS4zNDgtMC42NDVjLTAuMTQ2LTAuMDc0LTAuNDAyLTAuMTEyLTAuNDk4LTAuMjM0Yy0wLjIyOC0wLjI5LTAuMzUxLTAuNjU5LTAuNTI3LTAuOTk2IGMtMC4zNjgtMC43MDgtMC43My0xLjQ4Mi0xLjA1NS0yLjIyN2MtMC4yMjMtMC41MDgtMC4zNjgtMS4wMS0wLjY0NS0xLjQ2NmMtMS4zMzEtMi4xODgtMi43NjQtMy41MDktNC45ODItNC44MDcgYy0wLjQ3Mi0wLjI3Ni0xLjA0MS0wLjM4NS0xLjY0Mi0wLjUyOGMtMC4zMjMtMC4wMTktMC42NDUtMC4wMzktMC45NjgtMC4wNTljLTAuMTk3LTAuMDgzLTAuNDAxLTAuMzIzLTAuNTg3LTAuNDQgYy0wLjczNS0wLjQ2NS0yLjYyMS0xLjQ3NS0zLjE2NS0wLjE0N2MtMC4zNDQsMC44MzgsMC41MTQsMS42NTYsMC44MjEsMi4wODFjMC4yMTUsMC4yOTgsMC40OTEsMC42MzIsMC42NDUsMC45NjggYzAuMTAxLDAuMjIsMC4xMTksMC40NDEsMC4yMDUsMC42NzRjMC4yMTMsMC41NzQsMC41NSwxLjIyOCwwLjgyNiwxLjc1OWMwLjEzOSwwLjI2OSwwLjI5MywwLjU1MSwwLjQ2OSwwLjc5MSBjMC4xMDgsMC4xNDcsMC4yOTMsMC4yMTIsMC4zMjMsMC40NGMtMC4xODEsMC4yNTMtMC4xOTEsMC42NDYtMC4yOTMsMC45NjhjLTAuNDU4LDEuNDQ1LTAuMjg1LDMuMjQsMC4zODEsNC4zMDggYzAuMjA0LDAuMzI4LDAuNjg2LDEuMDMyLDEuMzQ4LDAuNzYyYzAuNTc5LTAuMjM2LDAuNDUtMC45NjcsMC42MTUtMS42MTJjMC4wMzctMC4xNDYsMC4wMTQtMC4yNTMsMC4wODgtMC4zNTEgYzAsMC4wMSwwLDAuMDE5LDAsMC4wM2MwLjE3NiwwLjM1MSwwLjM1MSwwLjcwNCwwLjUyOCwxLjA1NWMwLjM5MSwwLjYyOSwxLjA4NCwxLjI4NiwxLjY3LDEuNzMgYzAuMzA0LDAuMjMsMC41NDQsMC42MjgsMC45MzgsMC43NjJjMC0wLjAxLDAtMC4wMTksMC0wLjAzYy0wLjAxLDAtMC4wMTksMC0wLjAzLDBjLTAuMDc2LTAuMTE5LTAuMTk2LTAuMTY4LTAuMjkzLTAuMjY0IGMtMC4yMjktMC4yMjUtMC40ODUtMC41MDQtMC42NzQtMC43NjJjLTAuNTM0LTAuNzI1LTEuMDA2LTEuNTE5LTEuNDM2LTIuMzQ1Yy0wLjIwNS0wLjM5NS0wLjM4NC0wLjgyOS0wLjU1Ny0xLjIzMSBjLTAuMDY3LTAuMTU1LTAuMDY2LTAuMzg5LTAuMjA1LTAuNDY5Yy0wLjE5LDAuMjk0LTAuNDY4LDAuNTMyLTAuNjE1LDAuODc5Yy0wLjIzNCwwLjU1NS0wLjI2NSwxLjIzMy0wLjM1MSwxLjkzNCBjLTAuMDUyLDAuMDE4LTAuMDI5LDAuMDA2LTAuMDU5LDAuMDI5Yy0wLjQwOC0wLjA5OS0wLjU1Mi0wLjUxOC0wLjcwNC0wLjg3OWMtMC4zODQtMC45MTItMC40NTUtMi4zOC0wLjExNy0zLjQyOSBjMC4wODctMC4yNzIsMC40ODItMS4xMjcsMC4zMjMtMS4zNzhjLTAuMDc2LTAuMjUxLTAuMzI4LTAuMzk2LTAuNDY4LTAuNTg3Yy0wLjE3NS0wLjIzNi0wLjM0OC0wLjU0OC0wLjQ2OS0wLjgyMSBjLTAuMzE0LTAuNzExLTAuNjEyLTEuNTM4LTAuOTQzLTIuMjU3Yy0wLjE1OC0wLjM0NC0wLjQyNS0wLjY5MS0wLjY0NS0wLjk5NmMtMC4yNDMtMC4zMzgtMC41MTYtMC41ODctMC43MDQtMC45OTYgYy0wLjA2Ny0wLjE0NS0wLjE1OC0wLjM3OC0wLjA1OS0wLjUyOGMwLjAzMi0wLjEwMSwwLjA3Ni0wLjE0MywwLjE3Ni0wLjE3NmMwLjE3LTAuMTMyLDAuNjQzLDAuMDQzLDAuODIxLDAuMTE3IGMwLjQ3LDAuMTk1LDAuODYyLDAuMzgxLDEuMjYsMC42NDVjMC4xOTEsMC4xMjcsMC4zODQsMC4zNzIsMC42MTUsMC40NGMwLjA4OCwwLDAuMTc2LDAsMC4yNjQsMCBjMC40MTMsMC4wOTUsMC44NzUsMC4wMywxLjI2LDAuMTQ3YzAuNjgyLDAuMjA3LDEuMjkyLDAuNTI5LDEuODQ2LDAuODc5YzEuNjksMS4wNjcsMy4wNzEsMi41ODUsNC4wMTYsNC4zOTcgYzAuMTUyLDAuMjkyLDAuMjE4LDAuNTcsMC4zNTEsMC44NzljMC4yNywwLjYyNCwwLjYxMSwxLjI2NiwwLjg3OSwxLjg3NmMwLjI2OCwwLjYwOSwwLjUzLDEuMjIzLDAuOTA5LDEuNzMgYzAuMiwwLjI2NiwwLjk3LDAuNDA5LDEuMzE5LDAuNTU3YzAuMjQ1LDAuMTA0LDAuNjQ3LDAuMjExLDAuODc5LDAuMzUxYzAuNDQ0LDAuMjY4LDAuODc0LDAuNTg3LDEuMjg5LDAuODc5IEM0NS41MjgsMjQuODAzLDQ2LjE2NywyNS4xMjQsNDYuMTk5LDI1LjM4OXoiPjwvcGF0aD48cGF0aCBmaWxsPSIjMDA3OTZiIiBkPSJNMzMuMDk4LDE0LjIyM2MtMC4yMTUtMC4wMDQtMC4zNjcsMC4wMjMtMC41MjgsMC4wNTljMCwwLjAxLDAsMC4wMTksMCwwLjAzYzAuMDEsMCwwLjAxOSwwLDAuMDMsMCBjMC4xMDMsMC4yMSwwLjI4MywwLjM0NywwLjQxLDAuNTI4YzAuMDk4LDAuMjA1LDAuMTk1LDAuNDEsMC4yOTMsMC42MTVjMC4wMS0wLjAxLDAuMDE5LTAuMDE5LDAuMDI5LTAuMDI5IGMwLjE4MS0wLjEyOCwwLjI2NS0wLjMzMiwwLjI2NC0wLjY0NWMtMC4wNzMtMC4wNzctMC4wODQtMC4xNzMtMC4xNDctMC4yNjRDMzMuMzY1LDE0LjM5NCwzMy4yMDMsMTQuMzI1LDMzLjA5OCwxNC4yMjN6Ij48L3BhdGg+Cjwvc3ZnPg=="/>
+                <span>MySQL</span>
+                <div class="skill-bar">
+                    <div class="skill-bar-fill" style="width: 100%;" data-width="100%"></div>
+                </div>
+            </div>
+
+            <div class="Technical-skill-title">
+                <img alt="svgImg" src="https://www.vectorlogo.zone/logos/mongodb/mongodb-icon.svg">
+                <span>Mongodb</span>
+                <div class="skill-bar">
+                    <div class="skill-bar-fill" style="width: 90%;" data-width="90%"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <h1 class="portfolio-title">Top Projects</h1>
+        <div class="portfolios-container">
+            <div class="portfolio-card">
+                <img src="Styles/Images/Data_Analytical_Web.gif" alt="Project Image 1">
+                <div class="portfolio-details">
+                    <h2>Data Analytical Web</h2>
+                    <p>Developed with Django, HTML/CSS, JS, and MySQL, this analytical tool processes and displays company data with dynamic time period filters for insightful business decisions.</p>
+                    <br><br>
+                    <a href="#" class="learn-more-button">Learn More</a>
+                </div>
+            </div>
+        
+            <div class="portfolio-card">
+                <img src="Styles/Images/Customer_Analytical_Web.webp" alt="Django">
+                <div class="portfolio-details">
+                    <h2>Customer Analytical Web</h2>
+                    <p>Built using Django, HTML/CSS, JS, Google Auth API, and MySQL, this platform integrates Google login/signup to securely save and display customer-specific data.</p>
+                    <br><br>
+                    <a href="#" class="learn-more-button">Learn More</a>
+                </div>
+            </div>
+
+            <div class="portfolio-card">
+                <img src="Styles/Images/chess.jpg" alt="Django">
+                <div class="portfolio-details">
+                    <h2>Chess</h2>
+                    <p>Leveraging AI/ML, Django, JS, HTML/CSS, and MySQL, this advanced chess engine predicts and executes moves to challenge opponents, currently under development.</p>
+                    <br><br>
+                    <a href="#" class="learn-more-button">Learn More</a>
+                </div>
+            </div>
+
+            <div class="portfolio-card">
+                <img src="Styles/Images/note.jpg" alt="Project Image 2">
+                <div class="portfolio-details">
+                    <h2>Notes Hub</h2>
+                    <p>A Django-powered, multitasking website with HTML/CSS and JS, designed to efficiently save and manage notes, backed by a robust MySQL database.</p>
+                    <br><br>
+                    <a href="#" class="learn-more-button">Learn More</a>
+                </div>
+            </div>
+
+            <div class="portfolio-card">
+                <img src="Styles/Images/ticketing.png" alt="Django">
+                <div class="portfolio-details">
+                    <h2>IT Ticketing System</h2>
+                    <p>A sophisticated IT ticketing solution using PHP, MySQL, HTML/CSS, and JS, streamlining the process for companies to raise and manage support tickets, with ongoing enhancements.</p>
+                    <br><br>
+                    <a href="#" class="learn-more-button">Learn More</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="contact">
+        <h1>Contact Me</h1>
+        <p>If you have any questions, feel free to reach out!</p>
+        <div class="contact-info">
+            <a href="mailto:poptanikhushan@gmail.com" target="_blank">poptanikhushan@gmail.com</a>
+            <a href="tel:919084712373" target="_blank">9084712373</a>
+        </div>
+        <form class="contact-form">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+        <div class="social-icons">
+            <a href="https://github.com/khushanpoptani" target="_blank" aria-label="Github"><i class="fa fa-github"></i></a>
+            <a href="https://www.instagram.com/_kp_14/" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="https://api.whatsapp.com/send?phone=919084712373" target="_blank" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+            <a href="https://www.linkedin.com/in/khushan-poptani-89a870280/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+    </section>
+
+    <div class="modal" style="display:none;">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+        </div>
+    </div>
+
+    <script>
+        // Sidebar Toggle
+        var sidebar = document.getElementById("mySidebar");
+
+        function toggleSidebar() {
+            if (sidebar.style.left === "-100%" || sidebar.style.left === "") {
+                sidebar.style.left = "0"; // Show sidebar
+            } else {
+                sidebar.style.left = "-100%"; // Hide sidebar
+            }
+        }
+
+        // Animated Scroll
+        document.querySelectorAll('nav a, .sidebar a, .more-button').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Dynamic Typing Effect
+        const professionText = document.querySelector('.profession');
+        const professions = ['Developer', 'Designer', 'Freelancer'];
+        let professionIndex = 0;
+        let charIndex = 0;
+        const typingSpeed = 100;
+        const erasingSpeed = 50;
+        const delayBetweenProfessions = 2000;
+
+        function typeProfession() {
+            if (charIndex < professions[professionIndex].length) {
+                professionText.textContent += professions[professionIndex].charAt(charIndex);
+                charIndex++;
+                setTimeout(typeProfession, typingSpeed);
+            } else {
+                setTimeout(eraseProfession, delayBetweenProfessions);
+            }
+        }
+
+        function eraseProfession() {
+            if (charIndex > 0) {
+                professionText.textContent = professions[professionIndex].substring(0, charIndex - 1);
+                charIndex--;
+                setTimeout(eraseProfession, erasingSpeed);
+            } else {
+                professionIndex = (professionIndex + 1) % professions.length;
+                setTimeout(typeProfession, typingSpeed + 1100);
+            }
+        }
+
+        document.addEventListener('DOMContentLoaded', () => {
+            setTimeout(typeProfession, delayBetweenProfessions);
+        });
+
+        // Skill Bar Animation
+        const skillBars = document.querySelectorAll('.skill-bar-fill');
+
+        function animateSkillBars() {
+            skillBars.forEach(bar => {
+                const width = bar.getAttribute('data-width');
+                bar.style.width = width;
+            });
+        }
+
+        function checkSkillBars() {
+            const triggerBottom = window.innerHeight / 5 * 4;
+            skillBars.forEach(bar => {
+                const barTop = bar.getBoundingClientRect().top;
+                if (barTop < triggerBottom) {
+                    bar.classList.add('visible');
+                    animateSkillBars();
+                }
+            });
+        }
+
+        window.addEventListener('scroll', checkSkillBars);
+
+        // Modal for Project Details
+        const modal = document.querySelector('.modal');
+        const modalContent = document.querySelector('.modal-content');
+        const closeModal = document.querySelector('.close-modal');
+        const portfolioCards = document.querySelectorAll('.portfolio-card');
+
+        portfolioCards.forEach(item => {
+            item.addEventListener('click', () => {
+                const details = item.querySelector('.portfolio-details').innerHTML;
+                modalContent.innerHTML = details;
+                modal.style.display = 'block';
+            });
+        });
+
+        closeModal.addEventListener('click', () => {
+            modal.style.display = 'none';
+        });
+
+        window.addEventListener('click', (e) => {
+            if (e.target === modal) {
+                modal.style.display = 'none';
+            }
+        });
+
+        // Contact Form Validation
+        const contactForm = document.querySelector('.contact-form');
+
+        contactForm.addEventListener('submit', (e) => {
+            const name = contactForm.querySelector('input[name="name"]').value;
+            const email = contactForm.querySelector('input[name="email"]').value;
+            const message = contactForm.querySelector('textarea[name="message"]').value;
+            let valid = true;
+
+            if (name === '') {
+                alert('Name is required');
+                valid = false;
+            }
+
+            if (email === '') {
+                alert('Email is required');
+                valid = false;
+            } else if (!validateEmail(email)) {
+                alert('Email is not valid');
+                valid = false;
+            }
+
+            if (message === '') {
+                alert('Message is required');
+                valid = false;
+            }
+
+            if (!valid) {
+                e.preventDefault();
+            }
+        });
+
+        function validateEmail(email) {
+            const re = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/;
+            return re.test(String(email).toLowerCase());
+        }
+    </script>
+</body>
+</html>
